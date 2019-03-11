@@ -44,7 +44,6 @@ import java.util.WeakHashMap;
 import static android.support.v4.content.PermissionChecker.checkSelfPermission;
 
 public class MusicPlayer {
-
     private static final WeakHashMap<Context, ServiceBinder> mConnectionMap;
     private static final long[] sEmptyList;
     public static ITimberService mService = null;
